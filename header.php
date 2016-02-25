@@ -1,4 +1,5 @@
 <?
+	include("db.php");
 	if(!isset($_SESSION['id'])){
 ?>
 
@@ -16,7 +17,17 @@
 
 <? } else {
 ?>
-	<a href="logout.php">Log Out</a>
+		<a href="logout.php">Log Out</a>
+	
+	<?php 
+		if (hasAccess(2)){ 	
+	?>
+			 <a href = addProduct.php>Add product</a>
+	
+	<?php 
+		}
+	?>
+
 <?
 }
 ?>

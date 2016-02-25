@@ -1,7 +1,5 @@
-<?
-	include('header.php');
-// comment 
-
-//hello ;)
+<?php
+	include ('functions.php');		
+	include ('header.php');
+	
 ?>
-

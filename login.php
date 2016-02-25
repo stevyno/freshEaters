@@ -1,5 +1,6 @@
 <?
 	include("db.php");
+	include ("checked_logged_in.php");
 	$log_in = $_POST['log_in'];
 	$password = $_POST['password'];
 	
