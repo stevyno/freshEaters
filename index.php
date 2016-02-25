@@ -1,5 +1,5 @@
 <?
-	include('header.php');
+	include('footer.php');
 // comment 
 
 //hello ;)
