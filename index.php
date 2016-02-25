@@ -1,5 +1,5 @@
 <?
-	include('grs.php');
+	include('header.php');
 // comment 
 
 //hello ;)
