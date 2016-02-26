@@ -1,0 +1,5 @@
+<?
+//updateProduct.php
+	
+	
+?>

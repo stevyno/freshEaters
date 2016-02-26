@@ -1,0 +1,5 @@
+<?
+//deleteProduct.php
+	
+	
+?>
